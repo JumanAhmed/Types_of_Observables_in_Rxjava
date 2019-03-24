@@ -20,4 +20,16 @@ public class MainActivity extends AppCompatActivity {
     public void SingleAndSingleObserver(View view) {
         startActivity(new Intent(getApplicationContext(), SingleObserveActivity.class));
     }
+
+    public void MaybeAndMaybeObserver(View view) {
+        startActivity(new Intent(getApplicationContext(), MaybeObserverActivity.class));
+    }
+
+    public void CompletableAndCompletableObserver(View view) {
+        startActivity(new Intent(getApplicationContext(), CompletableObserverActivity.class));
+    }
+
+    public void FlowableAndObserver(View view) {
+        startActivity(new Intent(getApplicationContext(), FlowableAndObserverActivity.class));
+    }
 }

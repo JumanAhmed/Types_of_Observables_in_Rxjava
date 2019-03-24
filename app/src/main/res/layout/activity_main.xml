@@ -27,4 +27,34 @@
         android:text="Single And SingleObserver"
         android:textSize="18sp"
         android:onClick="SingleAndSingleObserver"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textAllCaps="false"
+        android:text="Maybe And MaybeObserver"
+        android:textSize="18sp"
+        android:onClick="MaybeAndMaybeObserver"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textAllCaps="false"
+        android:text="Completable And CompletableObserver"
+        android:textSize="18sp"
+        android:onClick="CompletableAndCompletableObserver"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textAllCaps="false"
+        android:text="Flowable And Observer"
+        android:textSize="18sp"
+        android:onClick="FlowableAndObserver"/>
 </LinearLayout>
